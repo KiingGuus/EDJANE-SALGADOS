@@ -1,0 +1,18 @@
+@import url('./reset-min.css');
+@import url('./vernada.css');
+@import url('./style.css');
+.piscap{
+  color: white;
+  background-color: rgba(255, 0, 0, 0.788);
+  animation: piscaPisca 2s infinite;
+  text-align: center;
+}
+@keyframes piscaPisca{
+  30% {background-color: red;}
+  20% {background-color: rgb(136, 30, 30);}
+  30% {background-color: rgb(219, 54, 25);}
+} 
+/*Imagens anuncios*/
+.imgA{
+  width: 20%;
+}
