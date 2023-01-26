@@ -8,9 +8,8 @@
   text-align: center;
 }
 @keyframes piscaPisca{
-  30% {background-color: red;}
-  20% {background-color: rgb(136, 30, 30);}
-  30% {background-color: rgb(219, 54, 25);}
+  25% {background-color: rgb(136, 30, 30);}
+  30% {background-color: rgb(230, 158, 63);}
 } 
 /*Imagens anuncios*/
 .imgA{
