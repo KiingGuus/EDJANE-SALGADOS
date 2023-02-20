@@ -15,3 +15,18 @@
 .imgA{
   width: 20%;
 }
+
+/*Imagem responsiva*/
+@media only screen and (max-width: 460px) {
+  .imgA {
+    width: 30%;
+  }
+  .imagem-responsiva {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.carrinho{
+  position: relative;
+  width: 2.8rem;
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <title>EDJANE SALGADOS</title>
 </head>
@@ -16,33 +16,14 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgba(255, 0, 0, 0.788);">
       <div class="container-fluid">
         <a class="navbar-brand" href="#inicio">Edjane Salgados</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#salgados">Salgados</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#salgadinhos">Salgadinhos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pizzas">Pizzas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Bebidas">Bebidas</a>
-            </li>
-          </ul>
-          <button type="button" class="btn btn-outline-light me-2"><a href="#">carrinho</a></button>
-        </div>
+        <a href="#"><img class="carrinho" src="Imagens/carrinho.png" alt=""></a>
       </div>
     </nav>
   </header>
   <p  id="inicio" style="margin-bottom: 2.3rem;">.</p>
   <!--carousel slide-->
   <div>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide alt-450px" data-bs-ride="carousel">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -50,21 +31,21 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-          <img src="Imagens/pizzanovoslide.png" height="400rem" class="d-block w-100" alt="...">
+          <img src="Imagens/pizzanovoslide.png" height="300rem" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h2 style="color: white">Prove uma de nossas Pizzas</h3>
             <p class="h4" style="color: white;">Super recheada e cheia de sabor!</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="Imagens/saladinhoslide.png" height="400rem" class="d-block w-100" alt="...">
+          <img src="Imagens/saladinhoslide.png" height="300rem" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h2 style="color: white;">Prove nossos deliciosos Salgadinhos</h3>
             <p class="h4" style="color: white;">Vá periodicamente ao medico, não espere ter algo mais serio.</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="Imagens/salgadofornoslide.png" height="400rem" class="d-block w-100" alt="...">
+          <img src="Imagens/salgadofornoslide.png" height="300rem" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h2 style="color: white;">Campeão de vendas! Nossos Super Salgados de forno!</h3>
             <p class="h4" style="color: white;">Vá periodicamente ao medico, não espere ter algo mais serio.</p>
@@ -95,16 +76,20 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="navbar-collapse collapse" id="navbarsExample01">
-            <ul class="navbar-nav me-auto mb-2">
-              <div class="container flex">
-                <img class="imgA rounded-4 me-2 my-2" style="margin-left: 6rem;" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 me-2 my-2" style="margin-left: 6rem;" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+            <ul class="navbar-nav me-auto my-2">
+              <div class="container flex imagem-responsiva">
+                <div style="text-align: center; width: 100%;">
+                  <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                  <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                  <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                  <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                </div>
+                <div style="text-align: center;">
+                  <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                  <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                  <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                  <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+              </div>
             </ul>
           </div>
         </div>
@@ -119,12 +104,13 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="navbar-collapse collapse" id="navbarsExample02">
-            <ul class="navbar-nav me-auto mb-2">
-              <div class="container flex">
-                <img class="imgA rounded-4 me-2" style="margin-left: 6rem;" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+            <ul class="navbar-nav me-auto my-2">
+              <div class="container flex" style="text-align: center;">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+              </div>
             </ul>
           </div>
         </div>
@@ -139,12 +125,12 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="navbar-collapse collapse" id="navbarsExample03">
-            <ul class="navbar-nav me-auto mb-2">
-              <div class="container flex">
-                <img class="imgA rounded-4 me-2" style="margin-left: 6rem;" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+            <ul class="navbar-nav me-auto my-2">
+              <div class="container flex" style="text-align: center;">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
             </ul>
           </div>
         </div>
@@ -159,12 +145,12 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="navbar-collapse collapse" id="navbarsExample04">
-            <ul class="navbar-nav me-auto mb-2">
+            <ul class="navbar-nav me-auto my-2" style="text-align: center;">
               <div class="container flex">
-                <img class="imgA rounded-4 me-2" style="margin-left: 6rem;" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
-                <img class="imgA rounded-4 mx-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
+                <img class="imgA rounded-4 mx-2 my-2" src="Imagens/COXINHA (COM REQUEIJAO).jpg" alt="">
             </ul>
           </div>
         </div>
@@ -172,7 +158,7 @@
     </section>
   </article>
   <!--foother-->
-  <footer class="py-3 my-4">
+  <footer style="margin-top: 10%;" class="py-3">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Instagram</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Twitter</a></li>
